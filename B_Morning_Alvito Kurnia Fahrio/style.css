@@ -1,0 +1,321 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #222;
+}
+
+header{
+    background: #222;
+    color: #eaeaea;
+    font-family: 'Poppins'; font-size: 24px; 
+    font-style: normal;font-weight: 500;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    gap: 10px;
+}
+
+.logo{
+    margin-right: auto;
+    display: flex;
+    padding-left: -10px;
+}
+
+.logo:hover{
+    transform: rotate(5deg);
+}
+
+.logo-img{
+    width: 120px;
+    height: 120px;
+}
+
+nav ul{
+    display: flex;
+    padding: 20px;
+}
+
+li{
+    list-style-type:none ;
+    padding: 10px;
+}
+
+li a{
+    transition: all.5s ease 0s;
+    display: inline-block;
+}
+
+li a:hover{
+    color: #F16B4E;
+}
+
+a{
+    color: #eaeaea;
+    text-decoration: none;
+    margin: 0 40px;
+}
+
+.custom-section{
+    margin-top: 8em;
+    margin-left: 70px;
+}
+
+.custom-section .intro{
+    width: 799px;
+    height: 164px;
+    flex-direction: column;
+    justify-content: center;
+    color: #494849;
+    font-family: 'Archivo Black';
+    font-size: 115px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.custom-section .deskrip{
+    display: flex;
+    width: 900px;
+    height: 208px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Archivo Black';
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-home{
+    border: none;
+    border-radius: 0%;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 25px;
+    background: #F16B4E;
+    color: #eaeaea;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.btn-home:hover{
+    background: #aca2a2;
+    color: #F16B4E;
+}
+
+.mt-5{
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.tittle-primary{
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #F16B4E;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 60PX;
+}
+
+.img-foto{
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-right: 20px;
+    margin-bottom: 140px;
+}
+
+.about{
+    background-color: #1F1F1F;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-about{
+    font-family: 'Poppins';
+    color: #FFF;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.tittlemyname{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.isi-tittle{
+    display: flex;
+    width: 682px;
+    height: 115px;
+    flex-direction: column;
+}
+
+.text-rowcoloumn {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.coloumn{
+    flex: 1;
+    margin-right: 10px;
+}
+
+.isi-coloumn .a{
+    color: #F16B4E;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.isi-coloumn {
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+.skill {
+    margin-bottom: 20px;
+    color: #eaeaea;
+    text-align: left;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 400px;
+}
+
+.progress-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.progress-group {
+    flex: 1;
+    max-width: 400px;
+}
+
+.progress-title {
+    display: flex;
+    justify-content: space-between; /* Menjaga jarak di antara elemen h3 */
+    width: 100%; /* Membuat elemen mengisi lebar penuh */
+    margin-bottom: 10px; /* Jarak antara judul dan progress bar */
+}
+
+.progress {
+    background-color: #494849;
+    border-radius: 5px;
+    height: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #F16B4E; /* Warna progress bar */
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    transition: width 0.5s; /* Efek animasi */
+}
+
+.second-tittle{
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #eaeaea;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 60PX;
+}
+
+.contact{
+    background-color: #F16B4E;
+    font-family: 'Poppins';
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.card-item{
+    text-align: center;
+    width: 25%;
+    min-height: 200px;
+    max-height: 300px;
+    padding: 24px;
+    color: #eaeaea;
+}
+
+.card-tittle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-description{
+    font-size: 16px;
+}
+
+.icon{
+    width: 50px;
+    margin: 10px;
+    padding: 4px;
+}
+
+.btn-cta{
+    border: none;
+    border-radius: 0%;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 25px;
+    background: #eaeaea;
+    color: #F16B4E;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.btn-cta:hover{
+    background: #aca2a2;
+    color: #F16B4E;
+}
+
+.mt-10{
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
